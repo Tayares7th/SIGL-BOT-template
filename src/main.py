@@ -92,5 +92,5 @@ async def play(ctx, move):
     
     
 
-token = "ODkyODI0NTgxNzUxMDYyNTI4.YVShsA.1Z-DCcQFv2sGtMWqnZjagKj9lts"
+token = ""
 bot.run(token)  # Starts the bot
