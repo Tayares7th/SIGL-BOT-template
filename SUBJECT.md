@@ -35,9 +35,9 @@
 
 ### Warm-up 
 
-[ ] When typing `!name` the bot should write back the name of the user typing the command
+[X] When typing `!name` the bot should write back the name of the user typing the command
 
-[ ] When typing `!count` the bot should write back for each possible status (Online, Offline, Idle, Do not disturb) the number of members (including yourself) in the server with that status
+[C] When typing `!count` the bot should write back for each possible status (Online, Offline, Idle, Do not disturb) the number of members (including yourself) in the server with that status
 - Example : "3 members are online, 2 are idle and 4 are off"
 - Extra mile : Instead of counting the members, list them sorted by status
 
@@ -51,7 +51,7 @@
 ### It's all fun and games
 [ ] When typing `!xkcd`, your post should post a random comic from https://xkcd.com
 
-[ ] When typing `!poll <question> <choice1?> <choice2?>, ... <choice n?> `, your bot should post a @here mention followed by your question. If none of the choice arguments are filled, your bot should by default react with one :thumbsup: emoji and one :thumbsdown: emoji in order to allow people to vote. If at least two choices arguments are filled, the bot should react with the appropriate emojis. Any other call should result in an error
+[X] When typing `!poll <question> <choice1?> <choice2?>, ... <choice n?> `, your bot should post a @here mention followed by your question. If none of the choice arguments are filled, your bot should by default react with one :thumbsup: emoji and one :thumbsdown: emoji in order to allow people to vote. If at least two choices arguments are filled, the bot should react with the appropriate emojis. Any other call should result in an error
 - Example : `!poll "Should we get burgers or salad tonight ?" :hamburger: :salad:`
 - Extra-mile : Define a time-limit for the poll. When the limit has been reached, bot will bot a message with the final result and delete the original poll message
 
